@@ -29,6 +29,12 @@
             android:layout_height="wrap_content"
             android:text="hola2" />
 
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hola3" />
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
