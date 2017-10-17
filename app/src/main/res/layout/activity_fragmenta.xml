@@ -4,15 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="iam4208017.escoladeltreball.org.fragmentdemo2.MainActivity">
+    tools:context="iam4208017.escoladeltreball.org.fragmentdemo2.fragmenta">
 
-    <LinearLayout
-        android:layout_width="138dp"
-        android:layout_height="495dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
-
-    </LinearLayout>
-
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hola fragment 1"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="54dp" />
 </android.support.constraint.ConstraintLayout>
